@@ -44,3 +44,42 @@ src/
 - **Notifications**: react-toastify
 - **State Management**: React Hooks (useState, useEffect)
 - **Data Storage**: localStorage
+- localStorage
+- 
+[{id: 1751789221134, title: "college", description: "college work", completed: true,…},…]
+0
+: 
+{id: 1751789221134, title: "college", description: "college work", completed: true,…}
+completed
+: 
+true
+createdAt
+: 
+"2025-07-06T08:07:01.134Z"
+description
+: 
+"college work"
+id
+: 
+1751789221134
+title
+: 
+"college"
+1
+: 
+{id: 1751789256777, title: "eating", description: "none", completed: false,…}
+completed
+: 
+false
+createdAt
+: 
+"2025-07-06T08:07:36.777Z"
+description
+: 
+"none"
+id
+: 
+1751789256777
+title
+: 
+"eating
