@@ -1,12 +1,46 @@
-# React + Vite
+# 📝 Task Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant task management application built using **React**. This app allows users to add, edit, delete, filter, and search tasks with persistent local storage support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 Login using username (stored locally)
+- ➕ Add new tasks with title and description
+- ✅ Mark tasks as complete or pending
+- 🔄 Edit existing tasks
+- ❌ Delete tasks with confirmation
+- 🔍 Real-time task search by title
+- 🔃 Filter tasks by:
+  - All
+  - Completed
+  - Pending
+- 💾 Data stored in localStorage (per username)
+- 🎯 Highlight searched task in the main list
+- 🌐 Fully responsive layout (mobile & desktop)
+- 🎨 Styled using **Vanilla CSS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── Login.jsx
+│ ├── Dashboard.jsx
+│ ├── TaskList.jsx
+│ ├── TaskForm.jsx
+│ ├── TaskItem.jsx
+│ ├── TaskFilter.jsx
+├── utils/
+│ └── localStorage.js
+├── App.jsx
+├── main.jsx
+└── index.css
+
+- **Frontend**: React (Vite), Vanilla CSS
+- **Routing**: React Router
+- **Notifications**: react-toastify
+- **State Management**: React Hooks (useState, useEffect)
+- **Data Storage**: localStorage
